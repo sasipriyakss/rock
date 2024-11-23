@@ -110,10 +110,10 @@ h1{
     }
 
     .choices button{
-        font-size: 30px;
+        font-size: 20px;
         margin: 1px;
         border-radius: 500px;
-        padding: 20px;
+        padding: 10px;
         background-color: rgb(7, 93, 99);
         cursor: pointer;
         transition: background-color 0.5s ease;
@@ -154,6 +154,6 @@ h1{
 
 #result
 {
-    font-size: 15px;
+    font-size: 25px;
 }
 }
