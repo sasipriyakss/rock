@@ -42,8 +42,8 @@ function playgame(playerchoice){
 
 }
    }
-   player.textContent=`PLAYER: ${playerchoice}`;
-   computer.textContent=`computer: ${computerchoice}`;
+   player.textContent=`PLAYER:  ${playerchoice}`;
+   computer.textContent=`BOT:   ${computerchoice}`;
    result.textContent=res;
 
    result.classList.remove("greentext","redtext");

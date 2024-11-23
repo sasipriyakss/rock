@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
     <h1>Rock-Paper-Scissors</h1>
     <div class="choices">
     
@@ -15,15 +16,18 @@
     <button type="button" onclick="playgame('scissors')">&#x270C;</button>
 
     </div>
-    <div id="player">Player:</div>
-    <div id="computer">Computer:</div>
-    <div id="result"></div>
+<div class="players">
+    <div id="player">PLAYER:</div>
+    <div id="computer">BOT:</div>    
+</div><br>
+<div id="result"></div>
      <div class="scoreboard">
      <div id="playerscore">Player Score:<span id="playerScoreDisplay">0</span></div>
      <div id="computerscore">Computer Score:<span id="computerScoreDisplay">0</span></div>
     </div> 
     <div class="chances">
      <div id="Chancetext">Chances:<span id="chancecount">10</span></div>
+    </div>
     </div>
      <script src="app.js"></script>
 </body>
