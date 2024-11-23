@@ -1,5 +1,5 @@
 body{
-    margin:auto;
+    margin:0;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     display: flex;
@@ -101,7 +101,7 @@ h1{
 
 }
 
-@media (max-width:480px)
+@media (max-width:600px)
 {
     h1{
         font-size: 1.5rem;
