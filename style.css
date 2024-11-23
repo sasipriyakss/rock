@@ -89,12 +89,14 @@ h1{
 }
 
 .container{
-    margin:auto;
-    background-color:rgba(22, 139, 127, 0.4);
+    margin-top:20px;
+    background-color:rgba(8, 40, 95, 0.485);
     
     padding: 20px;
     justify-items: center;
     box-shadow: 10px 10px 8px #888888;
+    border-radius: 50px;
+
 
 
 
